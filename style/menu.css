@@ -1,0 +1,78 @@
+
+  .hamburger {
+    position: absolute;
+    top: 7%;
+     left: 40px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 32px; height: 2px;
+    background-color: #ffffff;
+    transition: all 0.5s;
+  }
+  
+  .hamburger .line2 { margin: 8px 0; }
+  
+  .sidebar {
+      position: fixed;
+      top: 0; left: 0;
+      width: 30%; height: 100%;
+      transform: translateX(-100%);
+      background-color: #272727;
+      display: flex;
+      align-items: center;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+    
+    .sidebar-items { list-style: none; }
+    
+    .sidebar .item {
+      display: inline-block;
+      width: 90%;
+      padding: 20px 0px 22px 5px;
+      font-size: 25px;
+      color: #eee;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    
+    .sidebar .item:hover {
+      background-color: #eee;
+      color: #272727;
+      transform: translateY(-10px);
+    }
+    
+    .sidebar .item:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  
+    .hamburger.clicked {
+      left: calc(30% - 60px);
+    }
+    
+    .hamburger.clicked .line {
+      background-color: #eee;
+    }
+    
+    .hamburger.clicked .line1 {
+      transform: translateY(10px) rotate(-135deg);
+    }
+    
+    .hamburger.clicked .line2 {
+      transform: rotate(135deg);
+      opacity: 0;
+    }
+    
+    .hamburger.clicked .line3 {
+      transform: translateY(-10px) rotate(135deg);
+    }
+    
+    .sidebar.show {
+      transform: translateX(0);
+      opacity: 1;
+    }

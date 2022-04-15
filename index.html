@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FarmVilla</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+</head>
+<body>
+
+<header class="one">
+	
+	<div class="header_content">
+			<h2>Helthier ~ Affordable ~ convenient</h2>
+		    <h1>WELCOME</h1>
+		    <h3> Eat clean and green. Eat Organic</h3>
+		<button onclick="myfun()"><img src="img/arrowup.svg" alt="scroll" style='height: 50px;'></button>
+
+		</button>
+	</div>
+</header>
+<script>
+function toPage() 
+{  
+	window.location.href="include/search.php"; 
+} 
+	function myfun(){
+		document.getElementsByClassName("one")[0].style.height=0;
+		setTimeout('toPage()', 555);
+		         
+	}
+</script>
+</body>
+</html>

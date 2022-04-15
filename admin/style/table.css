@@ -1,0 +1,65 @@
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  height: 85%;
+  position: relative;
+  left: 22%;
+  overflow-x: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+  margin-top: 3%;
+}
+table {
+  width: 95%;
+  height: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 2%;
+  border: 1px solid #ddd;
+  margin-left: 3%;
+  position: relative;
+  overflow-y: auto;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e2dddd;
+  }
+  h1{
+    margin-left: 20%;
+    margin-top: -4%;
+}
+
+.card button{
+    border: none;
+    background-color: greenyellow;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor :pointer;
+    padding: 1px 10px;
+    margin: 2% 0% 0% 4%;
+    position: sticky;
+  }
+  .label {
+    color: white;
+    padding: 4px;
+    font-family: Arial;
+
+  }
+  .edit {
+    background-color: #04AA6D;
+  }
+  .delete {
+    background-color: #f44336;
+  }
+  .active {
+    background-color: #ff9800;
+  }
+  .deactive{
+    background-color: #2196F3;
+  }
+  a{
+    color: white;
+  }

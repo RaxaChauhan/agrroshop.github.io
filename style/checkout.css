@@ -1,0 +1,32 @@
+
+  .card {
+    margin-left: -8%;
+    background-color: rgb(255 255 255);
+    width: 72%;
+    height: 77%;
+    position: relative;
+    left: 22%;
+    overflow-x: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    margin-top: -22%;
+  }
+  input[type=text] {
+    width: 35%;
+    padding: 6px 7px;
+    margin: 7px 56px;
+    box-sizing: border-box;
+  }
+  label{
+    margin-left: 7%;
+  }
+.btnn{
+  display: block;
+    margin-top: 8%;
+    margin-left:32%;
+    height: 10%;
+    width: 32%;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

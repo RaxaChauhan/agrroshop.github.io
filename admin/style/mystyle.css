@@ -1,0 +1,55 @@
+* {box-sizing: border-box}
+body{
+    background-color: rgb(242, 250, 243);
+}
+.btn {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(242, 250, 243);
+    color: black;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: 10px;
+  }
+
+.success {
+    border-color: #056e31;
+    color: rgb(0, 0, 0);
+}
+  
+.success:hover {
+    background-color: #02a502;
+    color: white;
+}
+a{
+
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sidenav{
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #d7ecc2;
+    border: 3px solid rgb(82, 80, 80);
+    padding-top: 20px;
+}
+.sidenav .txt{
+    padding: 18px 8px 16px 40px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000;
+    display: block;
+    font-weight: bolder;
+  }
+.sidenav a:hover {
+    color: #056b05e7;
+
+  }
+  
